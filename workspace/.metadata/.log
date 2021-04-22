@@ -13813,3 +13813,95 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational
 
 !ENTRY org.eclipse.core.resources 2 10035 2021-04-22 10:01:20.228
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2021-04-22 16:05:05.725 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=J2RE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr5ifx-20090821_41076 (JIT enabled, AOT enabled)
+J9VM - 20090821_041076_lHdSMr
+JIT  - r9_20090518_2017
+GC   - 20090417_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rsm.product.v75.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsm.product.v75.ide
+
+!ENTRY org.eclipse.osgi 2 1 2021-04-22 16:25:38.780
+!MESSAGE NLS missing message: MenuManager_CreateAction__ServiceProvider__Stereotype_name in: com.ibm.xtools.modeling.enterprise.services.internal.l10n.Messages
+
+!ENTRY org.eclipse.ui.console 4 2 2021-04-22 17:59:33.725
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(Unknown Source)
+	at org.eclipse.swt.SWT.error(Unknown Source)
+	at org.eclipse.swt.SWT.error(Unknown Source)
+	at org.eclipse.swt.widgets.Display.error(Unknown Source)
+	at org.eclipse.swt.widgets.Display.asyncExec(Unknown Source)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(Unknown Source)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(Unknown Source)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(Unknown Source)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(Unknown Source)
+	at org.eclipse.ui.console.ConsolePlugin.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui.console 4 120 2021-04-22 17:59:33.738
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(Unknown Source)
+	at org.eclipse.swt.SWT.error(Unknown Source)
+	at org.eclipse.swt.SWT.error(Unknown Source)
+	at org.eclipse.swt.widgets.Display.error(Unknown Source)
+	at org.eclipse.swt.widgets.Display.asyncExec(Unknown Source)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(Unknown Source)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(Unknown Source)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(Unknown Source)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(Unknown Source)
+	at org.eclipse.ui.console.ConsolePlugin.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
