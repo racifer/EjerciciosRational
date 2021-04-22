@@ -10,20 +10,20 @@
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="569" y="30"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="99" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="com.ibm.xtools.common.ui.reduction.modelingViewpointsActionSet" itemType="typeToolBarContribution" x="101" y="30"/>
-<coolItem id="com.ibm.xtools.modeler.ui.actions.ModelingActionSet" itemType="typeToolBarContribution" x="38" y="30"/>
-<coolItem id="com.ibm.xtools.publish.ui.internal.actions.PublishActionSet" itemType="typeToolBarContribution" x="38" y="30"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="175" y="30"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="30"/>
+<coolItem id="com.ibm.xtools.common.ui.reduction.modelingViewpointsActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
+<coolItem id="com.ibm.xtools.modeler.ui.actions.ModelingActionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.ibm.xtools.publish.ui.internal.actions.PublishActionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="175" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="30"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="ModelerDiagramEditor" itemType="typeToolBarContribution" x="974" y="22"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
-<coolItem id="com.ibm.cic.licensing.common.ui.controlContribution" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.ibm.cic.licensing.common.ui.controlContribution" itemType="typeToolBarContribution" x="141" y="22"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
 <page focus="true" label="Workspace - Modeling">
@@ -31,12 +31,7 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
@@ -59,7 +54,7 @@
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
 <view id="com.ibm.ccl.erf.ui.views.reportexplorer" partName="Report Explorer"/>
 </views>
-<perspectives activePart="ModelerDiagramEditor" activePerspective="com.ibm.xtools.modeler.internal.ui.perspectives.ModelingPerspective">
+<perspectives activePart="org.eclipse.ui.views.PropertySheet" activePerspective="com.ibm.xtools.modeler.internal.ui.perspectives.ModelingPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.ibm.xtools.modeler.ui.internal.ui.perspectives.ModelingPerspective" id="com.ibm.xtools.modeler.internal.ui.perspectives.ModelingPerspective" label="Modeling"/>
 <alwaysOnActionSet id="com.ibm.rational.welcome.core.helpSearchActionSet"/>
@@ -88,6 +83,7 @@
 <alwaysOnActionSet id="com.ibm.xtools.common.ui.reduction.modelingViewpointsActionSet"/>
 <alwaysOnActionSet id="com.ibm.xtools.publish.ui.internal.actions.PublishActionSet"/>
 <alwaysOnActionSet id="com.ibm.xtools.transform.ui.actionSet"/>
+<alwaysOnActionSet id="com.ibm.cic.licensing.common.ui.toolbar.actionSet"/>
 <show_view_action id="com.ibm.ccl.erf.ui.views.reportexplorer"/>
 <show_view_action id="org.eclipse.ui.views.TaskList"/>
 <show_view_action id="org.eclipse.ui.views.PropertySheet"/>
