@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Examen_Final_Pedir_Libros/Simplified Blank Package.emx&apos; to &apos;Examen_Final_Pedir_Libros.emx&apos;" description="Rename resource &apos;Simplified Blank Package.emx&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Simplified Blank Package.emx" name="Examen_Final_Pedir_Libros.emx" stamp="1619016507951" updateReferences="true"/>
+</session>
