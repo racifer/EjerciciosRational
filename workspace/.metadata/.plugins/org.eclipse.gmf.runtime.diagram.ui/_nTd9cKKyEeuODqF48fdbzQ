@@ -1,4 +1,4 @@
-#Thu Apr 22 17:59:32 ART 2021
+#Thu Apr 22 19:41:45 ART 2021
 viewport.x=-49
 zoom=1.0
 print.margin.right=0.5
@@ -16,4 +16,4 @@ rulergrid.gridlinestyle=6
 rulergrid.gridlevel=true
 print.margin.top=0.5
 print.usePortrait=true
-viewport.y=0
+viewport.y=51
