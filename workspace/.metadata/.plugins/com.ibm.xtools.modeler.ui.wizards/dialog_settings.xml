@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="DefaultDiagramConfigurationPage.TemplateConfiguration">
-		<item value="true" key="DefaultDiagramConfigurationPage.createDefaultDiagramForModelSetting"/>
+		<item value="false" key="DefaultDiagramConfigurationPage.createDefaultDiagramForModelSetting"/>
 		<item value="0" key="DefaultDiagramConfigurationPage.defaultDiagramTypeForModelSetting"/>
 		<section name="RootElementBlock">
 			<item value="Model" key="com.ibm.xtools.modeler.templates.simplifiedBlankUMLModel"/>
